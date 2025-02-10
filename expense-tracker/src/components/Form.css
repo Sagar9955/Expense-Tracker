@@ -1,0 +1,12 @@
+.items {
+    padding: 10px;
+    margin: 5px 0;
+    width: 20vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.expense-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
