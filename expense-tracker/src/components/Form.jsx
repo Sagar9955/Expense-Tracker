@@ -47,6 +47,9 @@ function Addexpense(){
             theme: "light",
             transition: Bounce,
         });
+        setDescription("");
+        setAmount("");
+        // setCategory("");
     }
 
     function calculateTotal() {
@@ -121,7 +124,7 @@ function Addexpense(){
                         <option value="Shopping">Shopping</option>
                         <option value="Other">Other</option>
                     </select>
-                    <button onClick={add}>button</button>
+                    <button onClick={add}>ADD</button>
                 </div>
                 <div className="summary-container">
                     <div>Total Expense: {calculateTotal()}</div>
